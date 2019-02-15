@@ -156,6 +156,20 @@ p {
   width: 800px;
   margin: 0 auto;
 }
+@keyframes numbers {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  25% {
+    background-color: rgb(255, 115, 0);
+  }
+  50% {
+    background-color: rgb(119, 205, 255);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
 
 header nav {
   width: 800px;
@@ -163,6 +177,8 @@ header nav {
   padding: 20px 2%;
   font-size: 14px;
   text-align: start;
+  animation-name: numbers;
+  animation-duration: 5s;
 }
 
 header nav a {
@@ -266,10 +282,40 @@ button {
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
+@keyframes color {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  25% {
+    background-color: rgb(255, 115, 0);
+  }
+  50% {
+    background-color: rgb(119, 205, 255);
+  }
+  100% {
+    background-color: rgb(0, 0, 0);
+  }
+}
 
+@keyframes colors {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  25% {
+    background-color: rgb(255, 115, 0);
+  }
+  50% {
+    background-color: rgb(119, 205, 255);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
 footer {
   width: 100%;
   background: black;
+  animation-name: color;
+  animation-duration: 5s;
 }
 
 footer nav {
