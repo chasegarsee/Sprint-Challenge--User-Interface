@@ -217,6 +217,9 @@ header nav a:first-child {
   margin-bottom: 20px;
 }
 
+h2 {
+  padding-top: 10px;
+}
 .top-two-boxes {
   display: flex;
   justify-content: space-between;
