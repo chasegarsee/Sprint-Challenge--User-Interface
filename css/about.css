@@ -180,6 +180,12 @@ header nav {
   animation-name: numbers;
   animation-duration: 5s;
 }
+header nav a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 0 10px;
+}
 
 header nav a {
   display: inline-block;
@@ -234,6 +240,11 @@ header nav a:first-child {
   flex-wrap: wrap;
   padding: 20px 10px;
 }
+
+button:hover {
+  background-color: #000000;
+  color: white;
+}
 button {
   margin-top: 20px;
   border: 2px solid black;
@@ -272,6 +283,10 @@ button {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px;
+}
+
+.bottom-content:hover {
+  background-color: rgb(246, 246, 248);
 }
 
 .bottom-content h3 {
