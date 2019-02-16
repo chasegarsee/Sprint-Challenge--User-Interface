@@ -1,0 +1,351 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+@keyframes numbers {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  25% {
+    background-color: rgb(255, 115, 0);
+  }
+  50% {
+    background-color: rgb(119, 205, 255);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+header nav {
+  width: 800px;
+  display: inline-block;
+  padding: 20px 2%;
+  font-size: 14px;
+  text-align: start;
+  animation-name: numbers;
+  animation-duration: 5s;
+}
+header nav a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 0 10px;
+}
+
+header nav a {
+  display: inline-block;
+  margin-left: 50px;
+  padding-right: 22px;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-content h1 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.about-content .about-text {
+  border-bottom: 2px dotted black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  padding-top: 10px;
+}
+.top-two-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 20;
+}
+
+.top-two {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+
+.bottom-two-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 20;
+}
+
+.bottom-two {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+}
+button {
+  margin-top: 20px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.strategy-box {
+  border-bottom: 2px dotted black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.how-we-work-box {
+  border-bottom: 2px dotted black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.places-we-work-box {
+  border-bottom: 2px dotted black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.collaboration-box {
+  border-bottom: 2px dotted black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.bottom-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.bottom-content:hover {
+  background-color: rgb(246, 246, 248);
+}
+
+.bottom-content h3 {
+  font-size: 18px;
+}
+
+.bottom-content .bottom-text {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+@keyframes color {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  25% {
+    background-color: rgb(255, 115, 0);
+  }
+  50% {
+    background-color: rgb(119, 205, 255);
+  }
+  100% {
+    background-color: rgb(0, 0, 0);
+  }
+}
+
+@keyframes colors {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  25% {
+    background-color: rgb(255, 115, 0);
+  }
+  50% {
+    background-color: rgb(119, 205, 255);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
+footer {
+  width: 100%;
+  background: black;
+  animation-name: color;
+  animation-duration: 5s;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
